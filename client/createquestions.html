@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <style>
+    img{
+      width: 100%;
+    }
+  </style>
+    <title>Assignment 4</title>
+    <meta charset="utf-8">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="semantic/dist/semantic.min.js"></script>  
+    </head>
+  <body>
+    <header>
+      <img src="triviaOrange.jpg" alt='logo' width="128" height="250">
+      
+    </header>
+    <article>
+      <h2>Rules For Submitting Trivia Questions</h2>
+      <ol>
+        <li>Technology based questions only.</li>
+        <li>Each question must have an answer and vice versa.</li>
+        <li>Both question and answer must be formatted properly.</li>
+        <li>Use one space to separate words.</li>
+        <li>Each question must end with a ?</li>
+        <li>Do not enter extra leading spaces.</li>
+        <li>Do not enter extra ending spaces.</li>
+      </ol>
+    </article>
+    <article>
+        <h2>Create Question Form</h2>
+        <p>Enter tech question:</p>
+        <p><input id="userQuestion" size="60" type="text" value="Enter Question Here"></p>
+        <p>Enter answer:</p>
+        <p><input id="userAnswer" type="text" value="Enter Answer Here"></p>
+        
+        <p>
+        <input id="enterButton" class="ui button"  type="submit" value="Enter"></p>
+    </article>
+    <section>
+      <div id="enteredQuestion">
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/question.js"></script>
+      <nav>
+        <div class="uicontainer">
+          <div class="uibuttons">
+            <button class="ui labeled icon button"> 
+              <i class="teal home icon"></i>
+              <a href= "index.html">Home</a>
+            </button>
+
+            <button class="ui labeled icon button"> 
+              <i class="orange plus icon"></i> Create Questions
+            </button>
+
+            <button class="ui labeled icon button"> 
+              <i class="red play icon"></i> 
+              <a href= "playtrivia.html"> Play </a>
+            </button>
+
+            <button class="ui labeled icon button"> 
+              <i class="question icon"></i> 
+              <a href= "about.html"> About</a>
+            </button>
+        
+          </div>
+        </div>
+      </nav>
+  </body>
+</html>

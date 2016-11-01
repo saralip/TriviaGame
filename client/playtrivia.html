@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <style>
+    img{
+      width: 100%;
+    }
+  </style>
+    <title>Assignment 4</title>
+    <meta charset="utf-8">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="semantic/dist/semantic.min.js"></script>  </head>
+  <body>
+    <header>
+      <img src="triviaRed.jpg" alt='logo' width="128" height="250">
+
+
+    </header>
+    <article>
+      <h2>Rules Of The Game</h2>
+      <ol>
+        <li>No Googling allowed.</li>
+        <li>Have fun.</li>
+        <li>Spelling and Capitalization rules matter.</li>
+        <li>If answers are more than two words, use one space to separate words.</li>
+        <li>Do not enter your answer with extra leading spaces.</li>
+        <li>Do not enter your answer with extra ending spaces.</li>
+      <ol>
+    </article>
+    <article>
+      <h2>Questions</h2>
+      <section id="questionBox">
+      </section>
+      <section id="answerBox">
+        <p>Type your answer and the provided answer-key in the fields below.</p>
+        <input id="userAnswer" size="40" type="text" value="Your Answer Here">
+        <input id="answerId" size="10" type="text" value="Answer-Key">
+        <input id="enterButton" class="ui button" type="submit" value="Enter">
+      </section>
+    </article>
+    <aside id="scoreBox">
+      <h3>Your Score</h3>
+      <p id="correct">Correct:<span id="updateCorrect"></span></p>
+      <p id="correct">Wrong:<span id="updateWrong"></span></p>
+    </aside>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/play.js"></script>
+      <nav>
+        <div class="uicontainer">
+          <div class="uibuttons">
+          <button class="ui labeled icon button"> <i class="teal home icon"></i>
+          <a href= "index.html"> Home
+          </button></a>
+          <button class="ui labeled icon button"> <i class="orange plus icon"></i>
+          <a href= "createquestions.html"> Create Questions
+          </button></a>
+          <button class="ui labeled icon button"> <i class="red play icon"></i> 
+          Play </a>
+          </button>
+          <button class="ui labeled icon button"> <i class="question icon"></i> 
+          <a href= "about.html"> About</a></button>
+          </div>
+        </div>
+      </nav>
+  </body>
+</html>

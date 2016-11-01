@@ -1,0 +1,15 @@
+body {
+  background: #CDF6FA;
+}
+h1 {
+  float: right;
+  width: 560px;
+  color: #800000;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+body .uicontainer .uibuttons button {
+	padding-top: 2em;
+	padding-left: 3em;
+}
